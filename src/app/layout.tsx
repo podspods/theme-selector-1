@@ -21,8 +21,8 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={cn("bg-background text-primary", inter.className)}>
         <Provider>
-          <Navbar />
-          <div className="w-full h-full px-4 mt-28">{children}</div>
+        <Navbar />
+        <div className="w-full h-full px-4 mt-28">{children}</div>
         </Provider>
       </body>
     </html>
